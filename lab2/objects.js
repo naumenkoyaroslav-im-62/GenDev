@@ -12,11 +12,11 @@ function fn () {
     console.log({obj1, obj2});
 }
 
+fn();
+
 function createUser(name, city) {
     return { name, city };
-}
-
-fn();
+};
 
 console.log(createUser("Marcus Aurelius", "Roma"));
 
